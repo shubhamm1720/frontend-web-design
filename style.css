@@ -60,6 +60,9 @@ html,body{
     letter-spacing: -2px;
     position: relative;
 }
+#nav h6{
+    display: none;
+}
 #nav h1::after{
     content: "©";
     font-size: 2vh;
@@ -616,4 +619,248 @@ span{
     right: 3%;
     letter-spacing: 0.2px;
     position: absolute;
+}
+#nav2 h6{
+    display: none;
+}
+
+
+@media (max-width:600px) {
+#main{
+        overflow-x: hidden;
+    }
+#nav{
+    height: 15vw;
+    padding: 0px 20px;
+}
+#nav h2{
+    display: none;
+}
+#nav h1{
+    font-size: 6vw;
+    position: relative;
+}
+#nav h1::before{
+    font-size: 1.5vh;
+}
+#nav h6{
+    display: initial;
+    font-size: 5vw;
+}
+
+#overlay{
+    height: 60vh;
+    padding: 30px 7vh 0px 7vh;
+}
+
+#content2{
+    padding: 0px 4vw;
+    height: 30vh;
+}
+#part1 h1{
+    font-size: 5.3vw;
+}
+#part1 p{
+    font-size: 4vw;
+    padding: 4vw;
+}
+#part2{
+    padding-bottom: 4vw;
+}
+#part2 h3{
+    font-size: 5vw
+}
+#animationdiv{
+    height: 30vw;
+}
+#container{
+    width: 135%;
+}
+#animationdiv img{
+    margin-right: 10px;
+    width: 18vw;
+}
+
+#alphabet{
+    height: 8vh;
+    gap: 1vw;
+}
+#alphabet h5{
+    font-size: 3vh;
+    margin-right: 5vh;
+}
+#alphabet h6{
+    font-weight: 100;
+    font-size: 2vh;
+}
+#page2{
+    height: 70%;
+    padding: 40px 7vh;
+    display: grid;
+    grid-template-columns: 52% 43%;
+    grid-template-rows: 94% 6%;
+    gap: 10px;
+}
+#left{
+    background-position-y: 20%;
+}
+#right{
+    grid-template-rows: 60% 40%;
+}
+#img{
+    background-position-x: 50%;
+}
+#text1 p{
+    margin-top: 4vh;
+    font-size: 1.5vh;
+}
+#text2 p{
+    margin-top: 4vh;
+    font-size: 1.2vh;
+}
+#bottom{
+    height: fit-content;
+}
+#bottom h1{
+    font-size: 4vw;
+    font-weight: 500;
+}
+#page3{
+    padding: 20px 7vh;
+}
+#page3 #left1 #circlediv{
+    height: 40%;
+}
+#page3 #left1 #circlediv img{
+
+    height: 60%;
+}
+#page3 #left1 #textdiv{
+   height: 60%;
+   padding: 0vw;
+}
+#page3 #left1 #textdiv p{
+    font-size: 3vh;
+    line-height: 5vh;
+}
+#page3 #right1{
+    background-position: 50% 50%;
+}
+#page4{
+    padding: 30px 7vh 20px 7vh;
+}
+#page4 #bottom{
+    height: fit-content;
+}
+#page5{
+    padding: 0px 7vh;
+}
+#page5 .elem{
+    padding: 0px 2vh;
+}
+#page5 .elem h1{
+    width: 2vw;
+    font-size: 2.3vh;
+    line-height: 3vw;
+}
+#page5 .elem:hover img{
+    left: 24%;
+}
+#page5 #rightdiv h3{
+    font-size: 3.5vh;
+    line-height: 3vh;
+    font-weight: 500;
+}
+#page5 #rightdiv h5{
+    font-size: 1.5vh;
+}
+
+#page6{
+    height: 80%;
+    padding: 0vw 7vh;
+}
+#page6 #left4{
+    width: 50%;
+    background-position: center;
+}
+#page6 #right4>h1{
+    font-weight: 300;
+    line-height: 5vw;
+    font-size: 5vw;
+}
+#page6 #right4 h5{
+    font-size: 3vw;
+}
+#page6 #right4 p{
+    font-size: 2vw;
+    font-weight: 550;
+}
+#page6 #imgdiv img{
+    object-position: 40% 20%;
+}
+#page7{
+    height: 80%;
+    width: 100%;
+    padding: 2vh 7vh;
+}
+#page7 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page2copy{
+    display: none;
+}
+#footer h1{
+    font-size: 5vw;
+}
+
+#lastpage{
+    padding: 3vh 7vh ;
+    gap: 2vw;
+}
+#lastpage #left6 h2{
+    font-size: 5.5vw;
+    font-weight: 500;
+}
+#lastpage #center6 p{
+    font-size: 3vw;
+    line-height: 4vw;
+}
+#lastpage #center7 p{
+    font-size: 3vw;
+    line-height: 4vw;
+}
+#lastpage #center7 #imgdiv7{
+    background-position: 80% 10%;
+}
+
+span{
+    padding: 1vh 2vh;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#nav2{
+    padding: 0px 7vh;
+}
+#nav2 h2{
+    display: none;
+}
+#nav2 h1{
+    font-size: 6vw;
+}
+#nav2 h1::after{
+    font-weight: 200;
+}
+#nav2 h1::before{
+    letter-spacing: 0.1px;
+}
+#nav2 h6{
+    display: initial;
+    font-size: 3vw;
+}
 }

@@ -640,7 +640,12 @@ span{
     font-size: 6vw;
     position: relative;
 }
+#nav h1::after{
+    font-size: 4vw;
+    font-weight: 300;
+}
 #nav h1::before{
+    display: none;
     font-size: 1.5vh;
 }
 #nav h6{
@@ -712,16 +717,18 @@ span{
 }
 #text1 p{
     margin-top: 4vh;
-    font-size: 1.5vh;
+    font-size: 2.6vw;
+    width: fit-content;
 }
 #text2 p{
     margin-top: 4vh;
-    font-size: 1.2vh;
+    font-size: 1.8vw;
 }
 #bottom{
     height: fit-content;
 }
 #bottom h1{
+    width: fit-content;
     font-size: 4vw;
     font-weight: 500;
 }
@@ -730,18 +737,19 @@ span{
 }
 #page3 #left1 #circlediv{
     height: 40%;
+    padding: 0 4vw 0 0 ;
 }
 #page3 #left1 #circlediv img{
 
-    height: 60%;
+    height: 29vw;
 }
 #page3 #left1 #textdiv{
    height: 60%;
    padding: 0vw;
 }
 #page3 #left1 #textdiv p{
-    font-size: 3vh;
-    line-height: 5vh;
+    font-size: 5.5vw;
+    line-height: vw;
 }
 #page3 #right1{
     background-position: 50% 50%;
@@ -837,7 +845,7 @@ span{
 }
 
 span{
-    padding: 1vh 2vh;
+    padding: 1vw 2vw;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 50%;
@@ -854,9 +862,11 @@ span{
     font-size: 6vw;
 }
 #nav2 h1::after{
+    font-size: 4vw;
     font-weight: 200;
 }
 #nav2 h1::before{
+    display: none;
     letter-spacing: 0.1px;
 }
 #nav2 h6{
